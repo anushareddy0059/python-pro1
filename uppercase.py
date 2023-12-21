@@ -1,3 +1,4 @@
+#to know the uppercase
 a=(input('enter a character:-'))
 if a>='A' and a<='Z':
     print('it is uppercase')

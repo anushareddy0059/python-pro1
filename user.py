@@ -1,3 +1,4 @@
+#to know the username and password are valid or not
 user={'username':'anu','password':12345}
 username=eval(input('enter username:'))
 password=eval(input('enter password:'))
