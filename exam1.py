@@ -1,9 +1,3 @@
-i=0
-while i<5:
-    print(i)
-    i+=1
-    if i==3:
-        break
-    else:
-        print(0)
-        
+a='ABCDEF'
+b={j:i for i,j in enumerate(a) if(i%2==0)}
+print(b)

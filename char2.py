@@ -1,0 +1,1 @@
+(lambda st,ch: ch in st)('anusha','a')
