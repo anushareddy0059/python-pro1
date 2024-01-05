@@ -21,5 +21,10 @@ def insert_dynamic(cid,name,mobile,balance):
   query='insert into customer(id,name,mobile,balance) values(%s,%s,%s,%s)'
   cursor.execute(query,record)
   conn.commit()
-  
+def drop_record(cid):
+  query=f'delete from customer where id={cid}'
+  cursor.execute(query)
+  conn.commit()
+  print('record removed')
+
 
